@@ -4,10 +4,10 @@ import 'package:movies_app/Models/movie_model.dart';
 import 'package:movies_app/Models/cast_model.dart';
 import 'package:movies_app/Models/details_model.dart';
 
-//bf97e3ddbdaaa66dd39924002e29894f
+
 
 class MovieService {
-  final String apiKey = '829dd1713bd0ff5b4e2f73751a0e73d5'; // API Key
+  final String apiKey = 'YOUR API KEY'; // API Key
   final String lang = "en-US"; // Default language (can be changed)
   final String searchBy = "popular";
   final String baseUrl = 'https://api.themoviedb.org/3/movie';
